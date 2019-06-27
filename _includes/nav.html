@@ -11,6 +11,9 @@
 						<p>{{ site.description }}</p>
 					</li>
 					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+                    {% if site.kakao %}<li>
+                        <a href="http://pf.kakao.com/_cgEvj/chat" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> KaKao</a>
+                    </li>{% endif %}
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
