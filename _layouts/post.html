@@ -38,10 +38,11 @@ layout: compress
                 </div>
             </div>
         </div>
-            {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp">
+            <section id="disqus_thread" class="animated fadeInUp">
             <div>
                 세션속 내용?
-            </div></section><!-- /#disqus_thread  -->{% endif %}
+            </div>
+            </section>
     </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
