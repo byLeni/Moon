@@ -40,7 +40,22 @@ layout: compress
         </div>
         
         <div class="wrapper animated fadeIn">
-            I want to custom context
+            <a id="kakao-login-btn"></a>
+            <a href="http://developers.kakao.com/logout"></a>
+            <a href="javascript:void plusFriendChat()">
+              <img src="https://developers.kakao.com/assets/img/about/logos/plusfriend/consult_small_yellow_pc.png"/>
+            </a>
+            <script type='text/javascript'>
+              //<![CDATA[
+                // 사용할 앱의 JavaScript 키를 설정해 주세요.
+                Kakao.init('343e0f077422d01e8d7de8e5c50f05cc');
+                function plusFriendChat() {
+                  Kakao.PlusFriend.chat({
+                    plusFriendId: '_cgEvj' // 플러스친구 홈 URL에 명시된 id로 설정합니다.
+                  });
+                }
+              //]]>
+            </script>
         </div>
     </header>
     {% include scripts.html %}
