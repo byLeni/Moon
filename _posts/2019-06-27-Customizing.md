@@ -22,7 +22,7 @@ comments: true
 1. 좌측 메뉴바에 메뉴 추가하기
   - 원하는 메뉴를 추가합니다.
 
-![leftMenu.png](2019-07-01-customizing/leftMenu.png)
+![leftMenu.png](master/_posts/2019-07-01-customizing/leftMenu.png)
 
 <br>
 
