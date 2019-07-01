@@ -22,14 +22,14 @@ comments: true
 1. 좌측 메뉴바에 메뉴 추가하기
   - 원하는 메뉴를 추가합니다.
 
-![leftMenu.png](master/_posts/2019-07-01-customizing/leftMenu.png)
+![leftMenu.png](https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png)
 
 <br>
 
 2. 좌측 메뉴바 `about`란의 연락수단 추가하기
   - `Home` 페이지에 기존 연락수단이 아닌 추가적으로 연락수단을 넣었을 때 좌측 about 란에도 추가한 연락수단이 뜨도록 설정합니다.
 
-![addCount.png](2019-07-01-customizing/addCount.png)
+![addCount.png](https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png)
 
 3. 다른 프로젝트 페이지 연결 시키기
   - 작성중
