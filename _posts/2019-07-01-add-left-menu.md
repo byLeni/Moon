@@ -9,7 +9,7 @@ comments: true
 
 Leni say
 > 좌측의 메뉴바는 `_includes/nav.html` 을 수정하여 만들 수 있습니다. <br>
->  모든 페이지의 메뉴바가 수정되어 나타납니다.
+>  모든 페이지의 메뉴바가 수정되어 나타납니다!
 
 <br>
 
