@@ -17,15 +17,16 @@ Leni say
   - 저는 Jekyll 이나 HTML, CSS 등의 문법은 잘 모르기 때문에 세세하게 해석하지 않습니다.
   - 큰 단락 별로 분류만 하도록 하겠습니다.
 
-```
+{% highlight html %}
+<!--
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
   <button class="dl-trigger">Open Menu</button>
-  <!-- 여기서 부터 메뉴바의 설정이 시작 됩니다 -->
+  + + + 여기서 부터 메뉴바의 설정이 시작 됩니다 + + + 
   <ul class="dl-menu">
-    <!-- 좌측 상단 메뉴의 `Home`을 눌렀을 때 동작하는 부분입니다 -->
+    + + + 좌측 상단 메뉴의 `Home`을 눌렀을 때 동작하는 부분입니다 + + + 
     <li><a href="{{ site.url }}/">Home</a></li>
     <li>
-      <!-- 좌측 상단 메뉴의 `About`을 눌렀을 때 동작하는 부분입니다 -->
+      + + + 좌측 상단 메뉴의 `About`을 눌렀을 때 동작하는 부분입니다 + + + 
       <a href="#">About</a>
       <ul class="dl-submenu">
         <li>
@@ -33,9 +34,9 @@ Leni say
           <h4>{{ site.title }}</h4>
           <p>{{ site.description }}</p>
         </li>
-        <!-- 좌측 상단 메뉴의 `About` 속에 `Learn More`을 눌렀을 때 동작하는 부분입니다. -->
+        + + + 좌측 상단 메뉴의 `About` 속에 `Learn More`을 눌렀을 때 동작하는 부분입니다. + + + 
         <li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-                  <!-- 좌측 상단 메뉴의 `About`속에 연락수단으로 등록되는 부분입니다. -->
+        + + +  좌측 상단 메뉴의 `About`속에 연락수단으로 등록되는 부분입니다. + + + 
         {% if site.email %}<li>
                       <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                   </li>{% endif %}
@@ -111,14 +112,14 @@ Leni say
       </ul><!-- /.dl-submenu -->
     </li>
     <li>
-      <!-- 좌측 상단 메뉴의 `Posts`을 눌렀을 때 동작하는 부분입니다. -->
+      + + + 좌측 상단 메뉴의 `Posts`을 눌렀을 때 동작하는 부분입니다. + + + 
       <a href="#">Posts</a>
       <ul class="dl-submenu">
         <li><a href="{{ site.url }}/posts/">All Posts</a></li>
         <li><a href="{{ site.url }}/tags/">All Tags</a></li>
       </ul>
     </li>
-    <!-- ★ ☆ ★ ☆ 여기 ★ ☆ ★ ☆ -->
+     + + +  ★ ☆ ★ ☆ 여기 ★ ☆ ★ ☆ + + + 
     {% for link in site.data.navigation %}
       {% if link.url contains 'http' %}
           {% assign domain = '' %}
@@ -127,9 +128,10 @@ Leni say
       {% endif %}
       <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
     {% endfor %}
-  </ul><!-- /.dl-menu -->
-</nav><!-- /.dl-menuwrapper -->
-```
+  </ul><!-- /.dl-menu 
+</nav><!-- /.dl-menuwrapper
+-->
+{% endlighlight %}
 
 <br>
 
@@ -137,7 +139,7 @@ Leni say
   - 좌측 메뉴 목록은 Home, About, Posts, Projects로 이루어져 있습니다.
   -  사실 Projects는 nav.html 파일 속에 적용되어 있지 않은 것 같은데 왜 나오는지 모르겠습니다 'ㅁ'ㅋㅋ, 분명 어딘가에서 추가를 하니까 나오는 거곗죠..... 아시는 분 급구.. 알려주세요.
 
-위 소스 코드 분석에서 <!-- ★ ☆ ★ ☆ 여기 ★ ☆ ★ ☆ --> 인 부분을 수정해 줍니다.
+위 소스 코드 분석에서  ★ ☆ ★ ☆ 여기 ★ ☆ ★ ☆ 인 부분을 수정해 줍니다.
 사실 메뉴를 어디에 추가하냐에 따라 위치가 달라지는데 <!-- ★ ☆ ★ ☆ 여기 ★ ☆ ★ ☆ --> 부분에 추가를 해주시면 Posts 위치 밑에 생깁니다.
 위치야 원하는 곳에 하시면 되니까 어디든 자유롭게 하시고 어떤 걸 추가해야 하는지 보도록 합시다.
 
