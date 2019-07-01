@@ -17,8 +17,6 @@ Leni say
   - 저는 Jekyll 이나 HTML, CSS 등의 문법은 잘 모르기 때문에 세세하게 해석하지 않습니다.
   - 큰 단락 별로 분류만 하도록 하겠습니다.
 
-
-{% highlight html %}
 ```
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
   <button class="dl-trigger">Open Menu</button>
@@ -132,7 +130,6 @@ Leni say
   </ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
 ```
-{% endhighlight %}
 
 <br>
 
