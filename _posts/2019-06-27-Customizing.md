@@ -22,7 +22,10 @@ comments: true
 1. 좌측 메뉴바에 메뉴 추가하기
   - 원하는 메뉴를 추가합니다.
 
-![leftMenu.png](https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png)
+<figure>
+    <a href="/_posts/2019-07-01-customizing/leftMenu.png"><img src="/_posts/2019-07-01-customizing/leftMenu.png"></a>
+    <figcaption><a href="/_posts/2019-07-01-customizing/leftMenu.png/"></a>.</figcaption>
+</figure>
 
 <br>
 
