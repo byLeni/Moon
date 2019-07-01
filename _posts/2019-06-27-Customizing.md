@@ -23,8 +23,8 @@ comments: true
   - 원하는 메뉴를 추가합니다.
 
 <figure>
-    <a href="https://tshop.r10s.jp/palm-nut/cabinet/04917692/06307020/imgrc0075706047.jpg?fitin=330:330"><img src="https://tshop.r10s.jp/palm-nut/cabinet/04917692/06307020/imgrc0075706047.jpg?fitin=330:330"></a>
-    <figcaption><a href="https://tshop.r10s.jp/palm-nut/cabinet/04917692/06307020/imgrc0075706047.jpg?fitin=330:330/"></a>.</figcaption>
+    <a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"><img src="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"></a>
+    <figcaption><a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"></a>.</figcaption>
 </figure>
 
 <br>
@@ -33,8 +33,8 @@ comments: true
   - `Home` 페이지에 기존 연락수단이 아닌 추가적으로 연락수단을 넣었을 때 좌측 about 란에도 추가한 연락수단이 뜨도록 설정합니다.
 
 <figure>
-    <a href="/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"><img src="/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>
-    <figcaption><a href="/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>.</figcaption>
+    <a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"><img src="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>
+    <figcaption><a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>.</figcaption>
 </figure>
 
 <br>
