@@ -19,7 +19,7 @@ comments: true
 
 <br>
 
-1. [좌측 메뉴바에 메뉴 추가하기](/add-left-menu/)
+## 1. [좌측 메뉴바에 메뉴 추가하기](/add-left-menu/)
   - 원하는 메뉴를 추가합니다.
 
 <figure>
@@ -28,7 +28,7 @@ comments: true
 
 <br>
 
-2. 좌측 메뉴바 `about`란의 연락수단 추가하기
+## 2. [좌측 메뉴바 `about`란의 연락수단 추가하기](/add-social-menu/)
   - `Home` 페이지에 기존 연락수단이 아닌 추가적으로 연락수단을 넣었을 때 좌측 about 란에도 추가한 연락수단이 뜨도록 설정합니다.
 
 <figure>
