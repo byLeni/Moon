@@ -19,6 +19,7 @@ Leni say
 
 
 {% highlight html %}
+```
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
   <button class="dl-trigger">Open Menu</button>
   <!-- 여기서 부터 메뉴바의 설정이 시작 됩니다 -->
@@ -130,6 +131,7 @@ Leni say
     {% endfor %}
   </ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
+```
 {% endhighlight %}
 
 <br>
