@@ -23,8 +23,8 @@ comments: true
   - 원하는 메뉴를 추가합니다.
 
 <figure>
-    <a href="/_posts/2019-07-01-customizing/leftMenu.png"><img src="/_posts/2019-07-01-customizing/leftMenu.png"></a>
-    <figcaption><a href="/_posts/2019-07-01-customizing/leftMenu.png/"></a>.</figcaption>
+    <a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png"><img src="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png"></a>
+    <figcaption><a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png/"></a>.</figcaption>
 </figure>
 
 <br>
