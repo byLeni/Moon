@@ -19,7 +19,7 @@ comments: true
 
 <br>
 
-1. 좌측 메뉴바에 메뉴 추가하기
+1. [좌측 메뉴바에 메뉴 추가하기](/add-left-menu/)
   - 원하는 메뉴를 추가합니다.
 
 <figure>
