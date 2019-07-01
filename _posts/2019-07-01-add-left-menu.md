@@ -156,10 +156,10 @@ Leni say
 `메뉴이름 >> 서브메뉴이름 ` 순으로 2차 메뉴가 생성됩니다.
 
 - 같은 깃 레퍼지토리 안에서 생성하실 때는 `서브메뉴주소`가 폴더 이름이 되겠습니다. <br>
-ex) <a href="{{ stie.url }}/_posts/"> ... </a>
+ex) ```<a href="{{ stie.url }}/_posts/"> ... </a>```
 
 - 만약 다른 깃 레퍼지토리나 외부 홈페이지를 연결해 주신다면 href 자체의 값을 바꿔주시면 됩니다. <br>
-ex) <a href="http://www.github.com"> ...</a>
+ex) ```<a href="http://www.github.com"> ...</a>```
 
 <br>
 
