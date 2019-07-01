@@ -24,7 +24,6 @@ comments: true
 
 <figure>
     <a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"><img src="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"></a>
-    <figcaption><a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/leftMenu.png?raw=true"></a>.</figcaption>
 </figure>
 
 <br>
@@ -34,7 +33,6 @@ comments: true
 
 <figure>
     <a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"><img src="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>
-    <figcaption><a href="https://github.com/byLeni/byLeni.github.io/blob/master/_posts/2019-07-01-customizing/addCount.png?raw=true"></a>.</figcaption>
 </figure>
 
 <br>
