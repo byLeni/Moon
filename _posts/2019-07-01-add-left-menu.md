@@ -18,7 +18,6 @@ Leni say
   - 큰 단락 별로 분류만 하도록 하겠습니다.
 
 {% highlight html %}
-<!--
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
   <button class="dl-trigger">Open Menu</button>
   + + + 여기서 부터 메뉴바의 설정이 시작 됩니다 + + + 
@@ -37,6 +36,7 @@ Leni say
         + + + 좌측 상단 메뉴의 `About` 속에 `Learn More`을 눌렀을 때 동작하는 부분입니다. + + + 
         <li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
         + + +  좌측 상단 메뉴의 `About`속에 연락수단으로 등록되는 부분입니다. + + + 
+        + + + Jekyll 문법이 있어 화면상에 뜨지 않으니 코드 상에서 확인 부탁드립니다. + + +
         {% if site.email %}<li>
                       <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                   </li>{% endif %}
@@ -128,9 +128,8 @@ Leni say
       {% endif %}
       <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
     {% endfor %}
-  </ul><!-- /.dl-menu 
-</nav><!-- /.dl-menuwrapper
--->
+  </ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
 {% endhighlight %}
 
 <br>
