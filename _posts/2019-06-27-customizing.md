@@ -37,8 +37,9 @@ comments: true
 
 <br>
 
-## 3. `Home` 페이지의 social 아이콘과 좌측 메뉴 바의 `About` 메뉴의 social 아이콘 다르게 설정하기
-  - 작성중
+## 3. 소셜 아이콘 설정하기
+  - `Home` 페이지의 social 아이콘과 좌측 메뉴 바의 `About` 메뉴의 social 아이콘 다르게 설정
+  - 
     
 <br>
 
